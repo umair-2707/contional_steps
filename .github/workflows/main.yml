@@ -8,7 +8,7 @@ jobs:
     - name: checkout code
       uses: actions/checkout@v3
     - name: Run a commond
-      run: echo "job one is running
+      run: echo "job one is running"
 
   job_two:
     runs-on: ubuntu-latest
